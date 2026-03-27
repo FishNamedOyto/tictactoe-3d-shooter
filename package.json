@@ -84,7 +84,7 @@
     "tw-animate-css": "^1.3.5"
   },
   "devDependencies": {
-    "@types/react": "^",
+    "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/three": "^0.163.0",
     "bun-types": "^1.3.4",
