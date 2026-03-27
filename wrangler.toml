@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration
+name = "tictactoe-shooter"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = ".vercel/output/static"
+
+# Note: WebSocket game server requires Cloudflare Durable Objects
+# This configuration deploys the Next.js frontend only
+# For full multiplayer functionality, deploy the game-server separately
