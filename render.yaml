@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tictactoe-3d-shooter
+    env: node
+    region: oregon
+    buildCommand: NODE_OPTIONS=--max-old-space-size=4096 npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NODE_OPTIONS
+        value: --max-old-space-size=4096
